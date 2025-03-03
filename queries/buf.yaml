@@ -1,0 +1,14 @@
+version: v1
+
+name: buf.build/atls/queries
+
+breaking:
+  use:
+    - FILE
+
+lint:
+  use:
+    - DEFAULT
+  except:
+    - FILE_LOWER_SNAKE_CASE
+    - ENUM_ZERO_VALUE_SUFFIX
